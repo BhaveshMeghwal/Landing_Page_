@@ -34,7 +34,7 @@ const ContactUs = () => {
                   We help you grow your business faster & easier.
                 </h2>
                 <p className="text-white md:text-lg">
-                  Partner with us to simplify the path to your success. We'll
+                  Partner with us to simplify the path to your success. We will
                   make reaching your business goals faster and easier than ever.
                 </p>
                 

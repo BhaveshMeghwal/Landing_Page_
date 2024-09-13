@@ -9,22 +9,28 @@ import Blogs from "../components/Blogs"
 import WhyChooseUs from "../components/WhyChooseUs"
 import Footer from "../components/Footer"
 
+import { Urbanist } from 'next/font/google';
+
+const urbanist = Urbanist({
+  // weight: '400',
+  subsets: ['latin'],
+});
+
 export default function Home() {
   return (
-    <>
-    <Navbar/>
-    <Hero/>
-    <Solutions/>
-    
-    <Services/>
-    <Blogs/>
-    <About/>
-    
-    <MeetOurFounder/>
-<WhyChooseUs/>
-    <ContactUs/>
-    <Footer/>
-    
-    </>
+    <main className={urbanist.className}>
+      <Navbar />
+      <Hero />
+      <Solutions />
+
+      <Services />
+      <Blogs />
+      <About />
+
+      <MeetOurFounder />
+      <WhyChooseUs />
+      <ContactUs />
+      <Footer />
+    </main>
   );
 }

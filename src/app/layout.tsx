@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
-import {Urbanist} from "next/font/google";
 import "./globals.css";
 
-export const urbanist = Urbanist({
-  subsets: ['latin'],
-  // weights: ['400', '700'], // You can specify the weights you need
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,8 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body
-        className={urbanist.className}
+      
       >
         {children}
       </body>

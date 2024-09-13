@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { CheckIcon } from '@heroicons/react/24/solid';
 
-const FeatureItem = ({ title, description }) => (
+const FeatureItem = ({ title}) => (
   <div className="flex items-center space-x-4 mt-2">
     <div className=" rounded-full">
       <CheckIcon className='w-10 h-10 font-bold text-mblue'/>

@@ -1,6 +1,6 @@
 import React from "react";
 import { SparklesIcon } from "@heroicons/react/16/solid";
-import { FaLinkedin } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
 
 const MeetOurFounder = () => {
   return (

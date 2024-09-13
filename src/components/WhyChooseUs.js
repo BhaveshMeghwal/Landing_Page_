@@ -1,10 +1,10 @@
 import React from 'react';
-import { LuUserCog2 } from 'react-icons/lu';
-import { FaBusinessTime, FaRegLightbulb } from 'react-icons/fa';
-import { PiHandshake } from 'react-icons/pi';
-import { TbArrowsDiagonal } from 'react-icons/tb';
+// import { LuUserCog2 } from 'react-icons/lu';
+// import { FaBusinessTime, FaRegLightbulb } from 'react-icons/fa';
+// import { PiHandshake } from 'react-icons/pi';
+// import { TbArrowsDiagonal } from 'react-icons/tb';
 
-const ServiceCard = ({ Icon, title, description }) => (
+const ServiceCard = ({ title, description }) => (
     <div className="bg-white rounded-[28px] border border-gray-300 p-6 flex flex-col items-start text-left  ">
       <div className="mb-4 bg-gray-100 p-2 rounded-full flex items-center justify-center">
         {/* <Icon size={48} className="text-blue-800 h-10 w-10" /> */}
@@ -18,32 +18,32 @@ const ServiceCard = ({ Icon, title, description }) => (
   const WhyChooseUs = () => {
     const features = [
             {
-              Icon: LuUserCog2,
+              // Icon: LuUserCog2,
               title: "Technical Expertise",
               description: "Team of highly skilled developers, designers, and system architects, working with the latest technologies and best practices"
             },
             {
-              Icon: FaBusinessTime,
+              // Icon: FaBusinessTime,
               title: "Business Centric Approach",
               description: "Putting business first, providing tailored IT solutions based on the unique needs of each business"
             },
             {
-              Icon: TbArrowsDiagonal,
+              // Icon: TbArrowsDiagonal,
               title: "Process And Quality Assurance",
               description: "Implementing thorough testing and quality checks to deliver high-performing and secure IT solutions."
             },
             {
-              icon: PiHandshake,
+              // icon: PiHandshake,
               title: "Support",
               description: "Offering timely support and quick resolution of issues to minimize downtime and disruptions."
             },
             {
-              Icon: FaRegLightbulb,
+              // Icon: FaRegLightbulb,
               title: "Innovation",
               description: "Continuously adopting and integrating new technologies to stay competitive and offer clients cutting-edge solutions."
             },
             {
-              Icon: TbArrowsDiagonal,
+              // Icon: TbArrowsDiagonal,
               title: "Scalability",
               description: "Providing scalable IT infrastructure and services that grow as the client's business grows."
             }
